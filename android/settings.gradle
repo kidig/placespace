@@ -1,0 +1,3 @@
+rootProject.name = 'PlaceSpace'
+
+include ':app'
