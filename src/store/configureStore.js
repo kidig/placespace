@@ -7,5 +7,13 @@ export default function configureStore(initialState) {
     (state) => state,
     applyMiddleware(thunk)
   )
+
+  if (module.hot) {
+    module.hot.accept(() => {
+      const nextRootReducer = require('../reducers/index').default;
+      store.replaceReducer(nextRootReducer);
+    });
+  }
+
   return store
 }
