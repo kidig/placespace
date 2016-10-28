@@ -8,5 +8,5 @@ const firebaseApp = initializeApp({
   storageBucket: 'placespace-47a03.appspot.com',
 })
 
-export function syncFirebase(store) {
+export default (store) => {
 }

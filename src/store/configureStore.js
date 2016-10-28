@@ -6,15 +6,15 @@ import { syncFirebase } from '../firebase'
 export default function configureStore(initialState) {
   const store = createStore(
     (state) => state,
-    applyMiddleware(thunk)
+    applyMiddleware(thunk),
   )
   syncFirebase(store)
 
   if (module.hot) {
     module.hot.accept(() => {
-      const nextRootReducer = require('../reducers/index').default;
-      store.replaceReducer(nextRootReducer);
-    });
+      const nextRootReducer = require('../reducers/index').default
+      store.replaceReducer(nextRootReducer)
+    })
   }
 
   return store
