@@ -1,0 +1,33 @@
+{
+  "extends": "airbnb-base",
+  "rules": {
+    "arrow-parens": ["error", "always"],
+    "class-methods-use-this": "off",
+    "func-names": "off",
+    "global-require": "off",
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
+    "max-len": "off",
+    "no-console": "off",
+    "no-param-reassign": "off",
+    "prefer-rest-params": "off",
+    "prefer-spread": "off",
+    "react-native/no-color-literals": "error",
+    "react-native/no-inline-styles": "error",
+    "react-native/no-unused-styles": "error",
+    "react-native/split-platform-components": "error",
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error",
+    "semi": ["error", "never"],
+    "space-before-function-paren": ["error", "never"]
+  },
+  "plugins": [
+    "react",
+    "react-native"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true,
+      "experimentalObjectRestSpread": true
+    }
+  }
+}
