@@ -1,3 +1,4 @@
 <resources>
+    <string moduleConfig="true" name="reactNativeCodePush_androidDeploymentKey">FOrRC2gZ5szf9ICW-dE9OZ1upPm54y1qW0YHz</string>
     <string name="app_name">PlaceSpace</string>
 </resources>
