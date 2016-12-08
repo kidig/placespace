@@ -12,7 +12,6 @@ const codePushOptions = {
   installMode: CodePush.InstallMode.ON_NEXT_RESUME,
 }
 
-@CodePush(codePushOptions)
 class PlaceSpace extends Component {
 
   render() {
@@ -26,4 +25,4 @@ class PlaceSpace extends Component {
 }
 
 
-AppRegistry.registerComponent('PlaceSpace', () => PlaceSpace)
+AppRegistry.registerComponent('PlaceSpace', () => CodePush(codePushOptions)(PlaceSpace))
