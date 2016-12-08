@@ -1,17 +1,18 @@
 import React, { Component } from 'react'
 import { AppRegistry } from 'react-native'
 import { Provider } from 'react-redux'
-import codePush from 'react-native-code-push'
+import CodePush from 'react-native-code-push'
 import App from './containers/App'
 import configureStore from './store/configureStore'
 
 const store = configureStore()
 
 const codePushOptions = {
-  checkFrequency: codePush.CheckFrequency.ON_APP_RESUME,
-  installMode: codePush.InstallMode.ON_NEXT_RESUME,
+  checkFrequency: CodePush.CheckFrequency.ON_APP_RESUME,
+  installMode: CodePush.InstallMode.ON_NEXT_RESUME,
 }
 
+@CodePush(codePushOptions)
 class PlaceSpace extends Component {
 
   render() {
@@ -25,4 +26,4 @@ class PlaceSpace extends Component {
 }
 
 
-AppRegistry.registerComponent('PlaceSpace', () => codePush(codePushOptions)(PlaceSpace))
+AppRegistry.registerComponent('PlaceSpace', () => PlaceSpace)
