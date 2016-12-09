@@ -880,7 +880,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.prontiol.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prontiol.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlaceSpace.app/PlaceSpace";
 			};
@@ -904,7 +904,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.prontiol.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prontiol.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlaceSpace.app/PlaceSpace";
 			};
@@ -927,7 +927,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.prontiol.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prontiol.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = PlaceSpace;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -949,7 +949,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.prontiol.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prontiol.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = PlaceSpace;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
