@@ -1,11 +1,11 @@
 import { initializeApp } from 'firebase'
 
 const firebaseApp = initializeApp({
-  apiKey: 'AIzaSyCK0DZNLUB5TIlihx_5EoZ6Gqbyk2-FdVc',
-  authDomain: 'placespace-47a03.firebaseapp.com',
-  databaseURL: 'https://placespace-47a03.firebaseio.com',
-  messagingSenderId: '933537365603',
-  storageBucket: 'placespace-47a03.appspot.com',
+  apiKey: 'AIzaSyD7d9snPocq0cM2fVK9POqyJE7i34Iatnw',
+  authDomain: 'placespace-ea1d5.firebaseapp.com',
+  databaseURL: 'https://placespace-ea1d5.firebaseio.com',
+  storageBucket: 'placespace-ea1d5.appspot.com',
+  messagingSenderId: '815202151081',
 })
 
 export const syncFirebase = (store) => {
