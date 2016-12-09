@@ -1,4 +1,4 @@
-package com.placespace;
+package com.prontiol.placespace;
 
 import android.app.Application;
 import android.util.Log;

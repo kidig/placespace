@@ -1,4 +1,4 @@
-package com.placespace;
+package com.prontiol.placespace;
 
 import com.facebook.react.ReactActivity;
 
